@@ -1,0 +1,27 @@
+.banner-image-photo {
+    width: 100%;
+    height: 300px;
+}
+
+@media (min-width: 768px) {
+
+    .banner-image-photo {
+        width: 100%;
+        height: 550px;
+    }
+}
+
+@media (min-width: 1280px) {
+    
+    .banner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .banner-image-photo {
+        width: 80%;
+        height: 550px;
+    }
+}

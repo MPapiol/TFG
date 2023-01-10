@@ -1,0 +1,52 @@
+.activities-title {
+    margin-top: 20px;
+}
+
+.activities-types-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.activities-type {
+    flex-basis: 38%;
+    margin-bottom: 20px;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.activities-type-title {
+    text-align: center;
+    padding: 20px;
+}
+
+.activities-type-content p {
+    width: 85%;
+    margin: auto;
+    line-height: 32px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#clases{
+    background-image: url('imagenes/clases.jpg');
+}
+#rutas{
+    background-image: url('imagenes/rutas.jpg');
+}
+#casales{
+    background-image: url('imagenes/casal.jpg');
+}
+
+#pupilajes{
+    background-image: url('imagenes/pupilajes.jpg');
+}
+
+#eventos{
+    background-image: url('imagenes/eventos.jpg');
+}
+
+#visitas{
+    background-image: url('imagenes/casal2.jpg');
+}

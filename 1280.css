@@ -1,0 +1,49 @@
+@media (min-width: 1280px) {
+
+    /* About us */
+    .about-content {
+        max-width: 950px;
+    }
+
+    .about-image-photo {
+        height: 500px;
+        max-width: 950px;
+    }
+
+    /*Reasons*/
+    .reasons {
+        margin: 50px auto 0px;
+        width: 80%;
+    }
+
+    .reason {
+        height: 435px;
+    }
+
+    .reason-image-photo {
+        margin-top: 30px;
+        height: 340px;
+        width: 90%;
+    }
+
+    /* Activities */
+
+    .activities {
+        width: 80%;
+        margin: auto;
+    }
+
+    .activities-type {
+        flex-basis: 30%;
+    }
+
+    /* Location Map */
+    .location-title {
+        margin: 25px;
+    }
+
+    #map {
+        height: 450px;
+        width: 80%;
+    }
+}

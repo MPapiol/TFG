@@ -1,0 +1,7 @@
+.tus-reservas {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}

@@ -1,0 +1,134 @@
+/* About us */
+.about-content {
+    width: 80%;
+    margin: auto;
+}
+
+.about-image {
+    margin: 30px auto -40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-image-photo {
+    height: 300px;
+    width: 100%;
+    max-width: 550px;
+}
+
+/*Reasons*/
+.reasons {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    background-color: black;
+}
+
+.reason{
+    background-color: white;
+}
+
+.reasons-title {
+    margin-bottom: 50px;
+    color: white;
+}
+
+#reason-one {
+    transform: rotate(9deg);
+}
+
+#reason-two {
+    transform: rotate(-9deg);
+}
+
+#reason-three {
+    transform: rotate(9deg);
+}
+
+.reason-image {
+    display: flex;
+    justify-content: center;
+}
+
+.reason-image-photo {   
+    margin-top: 15px;
+    height: 200px;
+    width: 90%;
+}
+
+.reason-title {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: 'Podkova', serif;
+}
+
+/* Activities */
+.activities-title {
+    margin-top: 20px;
+}
+
+.activities-types-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.activities-type {
+    flex-basis: 38%;
+    margin-bottom: 20px;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.activities-type-title {
+    text-align: center;
+    padding: 20px;
+}
+
+.activities-type-content p {
+    width: 85%;
+    margin: auto;
+    line-height: 32px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#clases{
+    background-image: url('imagenes/clases.jpg');
+}
+#rutas{
+    background-image: url('imagenes/rutas.jpg');
+}
+#casales{
+    background-image: url('imagenes/casal.jpg');
+}
+
+#pupilajes{
+    background-image: url('imagenes/pupilajes.jpg');
+}
+
+#eventos{
+    background-image: url('imagenes/eventos.jpg');
+}
+
+#visitas{
+    background-image: url('imagenes/casal2.jpg');
+}
+
+/* Location Map */
+.location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#map {
+    height: 300px;
+    width: 100%;
+}
